@@ -9123,6 +9123,9 @@ blockquote cite:before {
   /* Extra small devices */
 }
 @media (max-width: 576px) {
+   margin-top: 40px;
+}
+@media (max-width: 576px) {
   .banner-sec-info h1 {
     font-size: 50px;
     line-height: 60px;
