@@ -9122,8 +9122,10 @@ blockquote cite:before {
   /* Extra small devices */
   /* Extra small devices */
 }
-@media (max-width: 576px) {
-   margin-top: 40px;
+@media (max-width:768px) {
+  .banner-sec-info h1{
+    margin-top: 50px;
+  }
 }
 @media (max-width: 576px) {
   .banner-sec-info h1 {
