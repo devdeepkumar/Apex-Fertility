@@ -6578,7 +6578,7 @@ textarea.form-control.is-invalid {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 3px;
+  /* margin-top: 3px; */
   margin-bottom: 33px;
 }
 
@@ -18448,8 +18448,8 @@ body {
 
 .footer-logo img{
   filter: invert(1) brightness(585);
-  margin-top: -15px;
-  margin-left:-9px;
+   margin-top: -32px;
+  margin-left: -13px;
 }
 
 .ser-icons-two img{
@@ -18472,13 +18472,31 @@ body {
   line-height: 30px;
   margin-bottom: 5px;
   font-size: 16px;
+  display: flex;
+  align-items: center;
 }
+.footer-contact li a{
+  list-style: none;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+
 .footer-contact li img{
   width: 20px;
   margin-right: 8px;
 }
 .widget.v2.footer-widget.time{
   padding-left: 76px;
+}
+
+.service-block-ten .ser-icon-ten img{
+  width: 57px;
+  height: 57px;
 }
 @media (max-width:991px){
   .banner-sec-info.one-time{
