@@ -15131,6 +15131,9 @@ body {
     width: 60px;
     height: 60px;
   }
+  .btn-style8.v8{
+    margin-bottom: 50px;
+  }
 }
 #slidenav4 .slick-dots {
   margin-top: 50px;
