@@ -9076,7 +9076,7 @@ blockquote cite:before {
 
 .banner-slide {
   position: relative;
-  height: 672px;
+  height: 612px;
   /* Extra small devices */
   /* Extra small devices */
 }
@@ -9120,14 +9120,14 @@ blockquote cite:before {
 }
 @media (max-width:768px) {
   .banner-sec-info h1{
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 }
 @media (max-width: 576px) {
   .banner-sec-info h1 {
     font-size: 50px;
     line-height: 60px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 }
 @media (max-width: 416px) {
@@ -10544,7 +10544,7 @@ blockquote cite:before {
 .about-list-eight {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 38px;
+  margin-bottom: 26px;
 }
 .about-list-eight li {
   position: relative;
@@ -18677,6 +18677,9 @@ body {
   .form-box-three .btn-style8 {
     padding: 0;
   }
+  .banner-slide {
+    height: 589px;
+}
 }
 
 /* Extra extra large devices (≥ 1400px) */
