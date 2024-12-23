@@ -1078,7 +1078,7 @@ textarea.form-control.is-invalid {
   transition: all ease 0.8s;
 }
 .vs-menu-wrapper .mobile-logo {
-  padding-bottom: 25px;
+  padding: 10px 45px 10px 0;
   /* padding-top: 40px; */
   display: inline-block;
 }
@@ -1124,7 +1124,7 @@ textarea.form-control.is-invalid {
   right: 0;
   top: 0;
   height: 100%;
-  max-height: 122px;
+ 
   background-color: var(--theme-color);
   opacity: 0.1;
   z-index: -1;
@@ -9134,7 +9134,7 @@ blockquote cite:before {
   .banner-sec-info h1 {
     font-size: 40px;
     line-height: 50px;
-    margin-top: 50px;
+  
   }
 }
 .banner-sec-info p {
@@ -11386,7 +11386,7 @@ blockquote cite:before {
 .service-content-eight {
   position: absolute;
   top: 37px;
-  left: 59px;
+  left: 20px;
   z-index: 999;
   /* Large devices */
 }
@@ -11407,6 +11407,7 @@ blockquote cite:before {
   .service-content-eight .title {
     font-size: 22px;
   }
+ 
 }
 .service-content-eight p {
   color: #FFF;
@@ -11427,7 +11428,7 @@ blockquote cite:before {
 .service-content-eight-v1 {
   position: absolute;
   top: 35px;
-  left: 40px;
+  left: 20px;
   z-index: 999;
   /* Large devices */
 }
@@ -15131,13 +15132,8 @@ body {
     width: 60px;
     height: 60px;
   }
-  .btn-style8.v8{
-    margin-bottom: 50px;
-  }
 }
-#slidenav4 .slick-dots {
-  margin-top: 50px;
-}
+
 
 /*------------------- 4.16. Skill Area  -------------------*/
 .skill-wrap1 {
@@ -18378,9 +18374,7 @@ body {
   padding-left: 76px;
 }
 
-.hero-form input{
 
-}
 
 /* Footer Form  */
 
@@ -18465,6 +18459,7 @@ body {
 .hero-form h3{
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 18px;
 }
 .footer-contact{
   padding-left: 0 ;
@@ -18497,6 +18492,14 @@ body {
 .widget.v2.footer-widget.time{
   padding-left: 76px;
 }
+
+
+  .service-tab-content .ser-img-nine .icon-box img {
+    width: 76px;
+    filter: brightness(2500);
+  } 
+
+
 @media (max-width: 992px) {
   .widget.v2.footer-widget.time {
     margin-left: 0;
@@ -18552,6 +18555,17 @@ body {
     margin-bottom: 22px;
   }
 }
+
+@media (max-width: 576px){
+      .banner-slide {
+        height: 680px;
+    }
+       .service-tab-content br{
+    display: block;
+  }
+
+}
+
 
 /* Small devices (≥ 576px and < 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -18682,7 +18696,7 @@ body {
     padding: 0;
   }
   .banner-slide {
-    height: 589px;
+    height: 530px;
 }
 .footer-logo img {
   margin-bottom: 0;
@@ -18707,11 +18721,14 @@ body {
 }
 
 .service-tab-content .ser-img-nine .icon-box {
-   
     top: 202px;
-   
 }
-
+.hero-form h3 {
+    margin-bottom: 10px;
+}
+.hero-form input{
+  margin-bottom: 11px;
+}
 
 }
 
