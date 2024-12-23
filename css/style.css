@@ -18498,7 +18498,10 @@ body {
     width: 76px;
     filter: brightness(2500);
   } 
-
+  
+.testi-content-eight .custom-arrows-eight{
+  margin-top: 30px;
+ }
 
 @media (max-width: 992px) {
   .widget.v2.footer-widget.time {
@@ -18731,7 +18734,7 @@ body {
 }
 
 }
-
+ 
 /* Extra extra large devices (≥ 1400px) */
 @media (min-width: 1400px) {
     .container-style8 {
