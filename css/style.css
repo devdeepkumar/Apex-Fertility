@@ -18449,6 +18449,7 @@ body {
   filter: invert(1) brightness(585);
    
   margin-left: -5px;
+  margin-bottom: 10px;
 }
 
 .ser-icons-two img{
@@ -18679,6 +18680,9 @@ body {
   }
   .banner-slide {
     height: 589px;
+}
+.footer-logo img {
+  margin-bottom: 0;
 }
 }
 
