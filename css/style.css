@@ -18666,13 +18666,16 @@ body {
   .ser-content-ten span{
     font-size:14px;
   }
-  }
+  
 .testi-auther-eight .title {
   font-size: 27px;
 }
   .testi-info-eight p{
     font-size: 20px;
     line-height: 40px;
+  }
+  .form-box-three .btn-style8 {
+    padding: 0;
   }
 }
 
